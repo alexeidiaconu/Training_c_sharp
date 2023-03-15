@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexdiaconu\\source\\repos\\Training Lesson2\\Training Lesson2\\Training Lesson2.csproj",
+      "projectUniqueName": "C:\\Users\\alexdiaconu\\source\\repos\\Training_c_sharp\\Training Lesson2\\Training Lesson2\\Training Lesson2.csproj",
       "projectName": "Training Lesson2",
-      "projectPath": "C:\\Users\\alexdiaconu\\source\\repos\\Training Lesson2\\Training Lesson2\\Training Lesson2.csproj",
+      "projectPath": "C:\\Users\\alexdiaconu\\source\\repos\\Training_c_sharp\\Training Lesson2\\Training Lesson2\\Training Lesson2.csproj",
       "packagesPath": "C:\\Users\\alexdiaconu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexdiaconu\\source\\repos\\Training Lesson2\\Training Lesson2\\obj\\",
+      "outputPath": "C:\\Users\\alexdiaconu\\source\\repos\\Training_c_sharp\\Training Lesson2\\Training Lesson2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
