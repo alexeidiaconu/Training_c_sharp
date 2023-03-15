@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\First",
+    "\\First\\First",
+    "\\First\\First\\bin",
+    "\\First\\First\\bin\\Debug",
+    "\\First\\First\\bin\\Debug\\net6.0"
+  ],
+  "SelectedNode": "\\First\\First\\First.csproj",
+  "PreviewInSolutionExplorer": false
+}
