@@ -1,8 +1,10 @@
-﻿public class Lesson2
+﻿using System.Security.Cryptography;
+
+public class Lesson2
 {
     private static void Main(string[] args)
     {
-        //ReadAndWrite();
+        /*ReadAndWrite();
 
         Console.WriteLine("Let's Find the maximum between 2 numbers ");
         int[] input = inputTwoNumbers();
@@ -12,15 +14,24 @@
 
         input = inputAnArray();
 
-        Console.WriteLine("----------------Results------------------ ");
+        Console.WriteLine("----------------Results------------------4 ");
 
         EvenOddNumbers(input);
         SumOfArray(input);
         maxNumberOfArray(input);
 
+        Console.WriteLine("----------------Homework------------------4 ");
+        Console.WriteLine("Let's Find Out if the given number is divisible by 7 AND 11! ");
 
+        DivBy7and11(InputOneNumber());
 
+        Console.WriteLine("Let's Find Out if the given Year is Leap or Not! ");
 
+        leapYear(InputOneNumber());*/
+
+        Console.WriteLine("Let's see the list of N Prime numbers! Please enter the size of the list: ");
+
+        TheNthPrimeNumber(InputOneNumber());
 
 
     }
@@ -54,7 +65,7 @@
         result[1] = int.Parse(Num2);
 
         return result;
-        
+
 
 
     }
@@ -65,32 +76,32 @@
         int result = ((number1 == number2) ? 0 : (number1 > number2) ? number1 : number2);
 
         Console.WriteLine("The Biggest number is: " + result);
-      
+
     }
 
     public static void ReadAndWrite()
+    {
+        String BoxA;
+        int output;
+
+        Console.WriteLine("Input One Number: ");
+
+        BoxA = Console.ReadLine();
+
+        if (int.TryParse(BoxA, out output) == true)
         {
-            String BoxA;
-            int output;
 
-            Console.WriteLine("Input One Number: ");
-
-            BoxA = Console.ReadLine();
-
-            if (int.TryParse(BoxA, out output) == true)
-            {
-
-                Console.WriteLine("Input was:" + BoxA);
-                
-            }
-            else
-            {
-                Console.WriteLine("Incorrect Input!" + BoxA + " Please enter a number!");
-                ReadAndWrite();
-            }
-
+            Console.WriteLine("Input was:" + BoxA);
 
         }
+        else
+        {
+            Console.WriteLine("Incorrect Input!" + BoxA + " Please enter a number!");
+            ReadAndWrite();
+        }
+
+
+    }
 
     public static int InputOneNumber()
     {
@@ -111,7 +122,7 @@
     }
     public static int[] inputAnArray()
     {
-        
+
         int Alenght;
         int output;
 
@@ -122,7 +133,7 @@
 
         int[] result = new int[Alenght];
 
-        for (int i = 0; i < Alenght; i++) 
+        for (int i = 0; i < Alenght; i++)
         {
             result[i] = InputOneNumber();
         }
@@ -144,7 +155,7 @@
         Console.WriteLine("The biggest number in Array is: " + Max);
     }
 
-    public static void SumOfArray(int[] input) 
+    public static void SumOfArray(int[] input)
     {
         int Sum = 0;
         for (int i = 0; i < input.Length; i++)
@@ -163,7 +174,7 @@
         {
             if (input[i] % 2 == 0)
             {
-                even.Add(input[i]);   
+                even.Add(input[i]);
             }
             else
             {
@@ -175,7 +186,7 @@
 
         foreach (int i in even)
         {
-            evenNum = evenNum + i.ToString()+ " ";
+            evenNum = evenNum + i.ToString() + " ";
         }
 
 
@@ -189,8 +200,75 @@
         }
 
 
-        Console.WriteLine("Odd numbers are: " + oddNum );
-  
+        Console.WriteLine("Odd numbers are: " + oddNum);
+
     }
- 
+
+    public static void DivBy7and11(int input)
+    {
+        if (input % 77 == 0)
+        {
+            Console.WriteLine("The number " + input + " is DIVISIBLE by 11 and 7");
+        }
+        else 
+        {
+            Console.WriteLine("The number " + input + " is NOT divisible by 11 and 7");
+        }
+    }
+
+    public static void leapYear(int input)
+    {
+        if (input % 4 == 0 && (input % 100 != 0 || input % 400 == 0))
+        {
+            Console.WriteLine("The year " + input + " is LEAP");
+        }
+        else 
+        {
+            Console.WriteLine("The year " + input + " is NOT LEAP");
+        }
+       
+    }
+
+    public static void TheNthPrimeNumber(int input) 
+    {
+        int currentNumber = 2;
+        List<int> PrimeNumbers = new List<int>();
+
+        //PrimeNumbers.Add(2);
+
+        while (PrimeNumbers.Count < input)
+        {
+            //Double Mid = currentNumber / 2;
+            Boolean IsPrime = true;
+            //Math.Floor(Mid)
+
+            for (int i = 2; i*2 <= currentNumber; i++)
+            {
+                if (currentNumber % i == 0 && currentNumber / i > 1)
+                { 
+                    IsPrime = false;
+                    break;
+                }
+            }
+            if (IsPrime)
+            {
+                PrimeNumbers.Add(currentNumber);
+            }
+            currentNumber++;
+        }
+
+        String PrimeList = " ";
+
+        foreach (int i in PrimeNumbers)
+        {
+            PrimeList =  PrimeList + i.ToString() + " ";
+        }
+
+        Console.WriteLine("The list of " + input + " Prime numbers is:");
+        Console.WriteLine(PrimeList);
+
+
+
+
+    }
 }
