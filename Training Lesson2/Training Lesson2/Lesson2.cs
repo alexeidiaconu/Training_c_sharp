@@ -4,7 +4,8 @@ public class Lesson2
 {
     private static void Main(string[] args)
     {
-        //ReadAndWrite();
+        
+        /*ReadAndWrite();
 
          Console.WriteLine("Let's Find the maximum between 2 numbers ");
           int[] input = inputTwoNumbers();
@@ -43,7 +44,7 @@ public class Lesson2
           SumOfEvenFibonaciTerms();
         Console.WriteLine("Let's calculate the sum of the digits for a given number: ");
 
-        SumOfNumberDigits(InputOneNumber());
+        SumOfNumberDigits(InputOneNumber());*/
 
 
     }
