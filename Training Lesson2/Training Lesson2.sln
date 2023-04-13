@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training Lesson2", "Trainin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{7E059EA4-7E4A-4396-9F9A-DFB0A1606A8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Participant", "Participant\Participant.csproj", "{AE07EDE0-0933-47EF-8E2D-F3DE12FB8197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7E059EA4-7E4A-4396-9F9A-DFB0A1606A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E059EA4-7E4A-4396-9F9A-DFB0A1606A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E059EA4-7E4A-4396-9F9A-DFB0A1606A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE07EDE0-0933-47EF-8E2D-F3DE12FB8197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE07EDE0-0933-47EF-8E2D-F3DE12FB8197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE07EDE0-0933-47EF-8E2D-F3DE12FB8197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE07EDE0-0933-47EF-8E2D-F3DE12FB8197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

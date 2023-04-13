@@ -1,0 +1,15 @@
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\Participant.csproj.AssemblyReference.cache
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\Participant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\Participant.AssemblyInfoInputs.cache
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\Participant.AssemblyInfo.cs
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\Participant.csproj.CoreCompileInputs.cache
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\bin\Debug\net6.0\Participant.exe
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\bin\Debug\net6.0\Participant.deps.json
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\bin\Debug\net6.0\Participant.runtimeconfig.json
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\bin\Debug\net6.0\Participant.dll
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\bin\Debug\net6.0\Participant.pdb
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\Participant.dll
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\refint\Participant.dll
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\Participant.pdb
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\Participant.genruntimeconfig.cache
+C:\Users\alexdiaconu\source\repos\Training_c_sharp\Training Lesson2\Participant\obj\Debug\net6.0\ref\Participant.dll
